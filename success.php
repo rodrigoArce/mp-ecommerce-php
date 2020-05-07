@@ -78,6 +78,8 @@
 										Collection id: <strong><?php echo $_GET['collection_id']; ?></strong><br />
 										Collection status: <strong><?php echo $_GET['collection_status']; ?></strong><br />
 										Merchant order ID: <strong><?php echo $_GET['merchant_order_id']; ?></strong>
+                                        preference ID: <strong><?php echo $_GET['preference_id']; ?></strong>
+                                        
 									</p>
 									</button>
                                 </div>
