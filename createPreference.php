@@ -60,7 +60,7 @@
 	);
 
 	// Notification URL
-	$preference->notification_url = "$basedir/notification.php";
+	$preference->notification_url = "$basedir/notifications.php";
 	
 	// Configurar preferencia
 	$preference->auto_return = "approved";
