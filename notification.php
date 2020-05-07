@@ -11,15 +11,15 @@ switch($_POST["type"]) {
         break;
     case "plan":
         $plan = MercadoPago\Plan.find_by_id($_POST["id"]);
+        var_dump($plan);
         break;
     case "subscription":
         $plan = MercadoPago\Subscription.find_by_id($_POST["id"]);
+        var_dump($plan);
         break;
     case "invoice":
         $plan = MercadoPago\Invoice.find_by_id($_POST["id"]);
+        var_dump($plan);
         break;
 }
-
-?>
-<?php
-	
+?>	
